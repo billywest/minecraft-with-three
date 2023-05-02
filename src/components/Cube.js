@@ -15,7 +15,6 @@ export const Cube = ({ position, texture }) => {
   ]);
 
   const activeTexture = textures[texture + "Texture"];
-  //   console.log("activeTexture", activeTexture);
 
   return (
     <mesh
